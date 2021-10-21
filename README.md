@@ -1,1 +1,1 @@
-# github-api-global-lib
+# jenkins shared library examples

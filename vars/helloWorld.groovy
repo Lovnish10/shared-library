@@ -3,6 +3,6 @@ def call(String name,String dayOfweek) {
 }
 
 
-def wish(){
+def info(){
 println("HI, good morning your awesome")
 }

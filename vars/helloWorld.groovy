@@ -1,3 +1,3 @@
 def call(String name,String dayOfweek) {
-   println name
+   println("your name is ${name}")
 }

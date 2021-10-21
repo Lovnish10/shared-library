@@ -1,3 +1,7 @@
+def call(){
+println("Creating Hurdles")
+}
+
 def info(message) {
     echo "INFO: ${message}"
 }

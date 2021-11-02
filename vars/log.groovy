@@ -1,7 +1,7 @@
 def call(script){
     node(){
     echo 'hello world'
-        echo "${script}"
+        echo "this value is given by :${script}"
         
     }
 }

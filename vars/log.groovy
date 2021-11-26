@@ -1,4 +1,4 @@
-import AddSidebarLinkAction
+import Utilities
 def call(script){
     node(){
     echo 'hello world'

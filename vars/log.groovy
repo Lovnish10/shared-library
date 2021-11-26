@@ -1,4 +1,4 @@
-import com.lov.devops.Sample
+import com.lov.devops.Sample.groovy
 
 def call(script){
     node(){

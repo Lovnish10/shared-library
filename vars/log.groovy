@@ -1,5 +1,4 @@
-import com.lov.devops.Sample.groovy
-
+import AddSidebarLinkAction
 def call(script){
     node(){
     echo 'hello world'

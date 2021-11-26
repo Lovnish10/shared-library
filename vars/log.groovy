@@ -6,7 +6,7 @@ def call(script){
         println script
        // println this.BRANCH_NAME
        // println script.BRANCH_NAME
-        println BRANCH_NAME
+        println env.BRANCH_NAME
         
     }
 }

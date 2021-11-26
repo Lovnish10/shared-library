@@ -3,6 +3,8 @@ def call(script){
    Utilities utl = new Utilities(script)
     
     node(){
+      def my =  utl.maven()
+       println my
     echo 'hello world'
       echo "this value is given by :${script}"
        println script.getClass().getSimpleName()

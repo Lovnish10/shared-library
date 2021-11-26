@@ -1,4 +1,3 @@
-package com.lov.devops
 
 class Sample{
   def s;

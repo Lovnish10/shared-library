@@ -3,14 +3,14 @@ public class AddSidebarLinkAction implements hudson.model.Action,java.io.Seriali
    private String iconFileName;
    private String urlName;
    private String iconClassName;
-   def script;
+  // def script;
   
-  public AddSidebarLinkAction((String displayName,String iconFileName,String urlName,String iconClassName,script) {
+  public AddSidebarLinkAction((String displayName,String iconFileName,String urlName,String iconClassName) {
      this.displayName = displayName;
     this.iconFileName = iconFileName;
     this.urlName = urlName;
     this.iconClassName = iconClassName;
-    this.script = script
+  //  this.script = script
     
   }
   

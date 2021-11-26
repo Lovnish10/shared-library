@@ -1,3 +1,5 @@
+import com.lov.devops.Test
+
 def call(script){
     node(){
     echo 'hello world'

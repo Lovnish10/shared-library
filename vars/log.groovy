@@ -5,8 +5,8 @@ def call(script){
        println script.getClass().getSimpleName()
         println script
        // println this.BRANCH_NAME
-        println script.env.BRANCH_NAME
-        println env.BRANCH_NAME
+        println script.env.JENKINS_URL
+        println env.JENKINS_URL
         
     }
 }

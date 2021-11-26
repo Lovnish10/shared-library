@@ -3,7 +3,10 @@ def call(script){
     echo 'hello world'
       echo "this value is given by :${script}"
        println script.getClass().getSimpleName()
-        println this
+        println script
+        println this.BRANCH_NAME
+        println script.BRANCH_NAME
+        println BRANCH_NAME
         
     }
 }

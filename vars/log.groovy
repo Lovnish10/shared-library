@@ -12,7 +12,7 @@ def call(script){
       println maven.getClass()
       println "maven is ${maven}"
       
-      def records = [['key', 'value'], ['a', 'b']]
+      def records = [['key', 'value'], ['a', 'b'],['e','f']]
 writeCSV file: 'output.csv', records: records, format: CSVFormat.EXCEL
         
     }

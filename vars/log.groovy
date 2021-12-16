@@ -9,6 +9,9 @@ def call(script){
       def maven = tool 'Maven 3.8.3'
       println maven.getClass()
       println "maven is ${maven}"
+      
+      def records = [['key', 'value'], ['a', 'b']]
+writeCSV file: 'output.csv', records: records, format: CSVFormat.EXCEL
         
     }
 }

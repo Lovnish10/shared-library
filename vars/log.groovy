@@ -7,6 +7,7 @@ def call(script){
     node(){
       
       bat 'echo "Hello wolrd from bat ${BUILD_NUMBER}"'
+      bat "echo 'Hello wolrd from bat ${BUILD_NUMBER}'"
     echo 'hello world'
       echo "this value is given by :${script}"
       def maven = tool 'Maven 3.8.3'

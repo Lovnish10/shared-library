@@ -19,6 +19,8 @@ def call(script){
       
       println "printing node version"
       bat 'node -v'
+      println "printing npm latest version"
+      bat 'npm -v'
         
     }
 }

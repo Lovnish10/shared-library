@@ -14,8 +14,11 @@ def call(script){
       println maven.getClass()
       println "maven is ${maven}"
       
-      def records = [["k", "p"], ["r", "k"],["z","p"]]
-      writeCSV file: 'output.csv', records: records, format: CSVFormat.EXCEL
+      //def records = [["k", "p"], ["r", "k"],["z","p"]]
+      //writeCSV file: 'output.csv', records: records, format: CSVFormat.EXCEL
+      
+      println "printing node version"
+      bat 'node -v'
         
     }
 }
